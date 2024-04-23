@@ -1,6 +1,7 @@
 # usbkilled
 When you plug or unplug a usb, you can run commands like shutdowning computer or downloading files
-
+# İmportant
+Before starting the usbkilled.py, you must add at least 1 usb to whitelist via white.py
 # USB Device Monitor with White-list Functionality
 This project provides a Python script that monitors USB devices on a Windows system. The script watches for USB devices being connected and disconnected. If a USB device is added or removed, the script checks whether the device is on a white-list. If it is, a specific function is called to handle allowed devices. If the device is not on the white-list, separate functions are called to handle device addition and removal, and an entry is made in a log file.
 
